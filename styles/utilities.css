@@ -4,11 +4,69 @@
   margin: 0;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200;400;500;800&display=swap");
 body {
   overflow-x: hidden;
+  font-family: "Noto Sans Mono", monospace;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+/* Header for each section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 25vh;
+  width: 90%;
+}
+
+.title {
+  display: flex;
+  font-weight: bolder;
+}
+
+.arrow {
+  color: #28eea7;
+  font-size: 2rem;
+}
+
+.title-txt {
+  color: #363738;
+  font-size: 1.5rem;
+  padding: 0.3rem;
+}
+
+.circles {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.black-circle,
+.green-circle,
+.grey-circle,
+.white-circle {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+}
+
+.black-circle {
+  background-color: #363738;
+}
+
+.white-circle {
+  background-color: white;
+}
+
+.grey-circle {
+  background-color: #dcdee1;
+}
+
+.green-circle {
+  background-color: #28eea7;
 }

@@ -1,0 +1,93 @@
+/* Hero Section */
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar {
+  top: 10%;
+  height: 7%;
+  z-index: 3;
+  width: 100%;
+  padding: 0 10%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-menu a {
+  background-color: #363738;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 20%;
+  padding: 0.3em;
+}
+
+.navbar-logo img {
+  object-fit: cover;
+  width: 15%;
+}
+
+.hero-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-left,
+.hero-right {
+  position: relative;
+}
+
+.hero-left {
+  width: 50%;
+  background-image: url("../assets/images/img-1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-right {
+  width: 50%;
+  background-image: url("../assets/images/img-2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-right::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(35, 35, 35, 0.85);
+}
+
+.hero-left::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(251, 80, 142, 0.93);
+  animation: colorChange 9s infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: rgba(40, 238, 167, 0.93);
+  }
+  50% {
+    background-color: rgba(251, 80, 142, 0.93);
+  }
+
+  100% {
+    background-color: rgba(152, 100, 218, 0.93);
+  }
+}
+
+/* Programs Section */

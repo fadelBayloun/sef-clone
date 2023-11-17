@@ -4,10 +4,11 @@
   margin: 0;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200;400;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@700&family=Roboto&family=Ubuntu&display=swap");
 body {
   overflow-x: hidden;
   font-family: "Noto Sans Mono", monospace;
+  user-select: none;
 }
 
 a {
@@ -16,6 +17,7 @@ a {
 }
 
 /* Header for each section */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -36,7 +38,7 @@ a {
 
 .title-txt {
   color: #363738;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   padding: 0.3rem;
 }
 
@@ -69,4 +71,44 @@ a {
 
 .green-circle {
   background-color: #28eea7;
+}
+
+/* Text colors */
+
+.green-text {
+  color: #28eea7;
+}
+
+.yellow-text {
+  color: #ffc635;
+}
+
+.purple-text {
+  color: #9864da;
+}
+
+.pink-text {
+  color: #fb508e;
+}
+
+/* Background colors  */
+
+.green-bg {
+  background-color: #28eea7;
+  transition: background-color 1s;
+}
+
+.yellow-bg {
+  background-color: #ffc635;
+  transition: background-color 1s;
+}
+
+.purple-bg {
+  background-color: #9864da;
+  transition: background-color 1s;
+}
+
+.pink-bg {
+  background-color: #fb508e;
+  transition: background-color 1s;
 }

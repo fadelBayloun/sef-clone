@@ -495,14 +495,14 @@
   line-height: 1.4;
 }
 
-.list {
+.hire-talent .list {
   align-self: stretch;
   font-size: 14px;
   line-height: 1.5;
   color: #dcdee1;
 }
 
-ol {
+.hire-talent ol {
   margin-top: 0;
   margin-bottom: 10px;
   padding-left: 40px;
@@ -515,7 +515,7 @@ ol {
   padding-inline-start: 40px;
 }
 
-p {
+.hire-talent p {
   margin-top: 0;
   margin-bottom: 10px;
   display: block;
@@ -524,7 +524,7 @@ p {
   text-align: left;
 }
 
-.link {
+.hire-talent .link {
   cursor: pointer;
   text-align: right;
   align-self: stretch;
@@ -534,18 +534,18 @@ p {
   padding: 15px 20px;
   background-color: #363738;
 }
-a {
+.hire-talent a {
   color: white;
   text-decoration: none;
   font-weight: 900;
 }
 
-.cell {
+.hire-talent .cell {
   margin-top: 30px;
   align-self: stretch;
 }
 
-.cell-container {
+.hire-talent .cell-container {
   font-family: Noto Sans, sans-serif;
   background-color: #232323;
   border-radius: 20px;
@@ -559,7 +559,7 @@ a {
   grid-row-gap: 20px;
 }
 
-.text {
+.hire-talent .text {
   font-weight: 300;
   text-align: left;
   font-size: 22px;
@@ -629,6 +629,11 @@ a {
   color: white;
 }
 
+.testimonials-text p {
+  line-height: 1.4;
+  margin: 1em 1em 1em;
+}
+
 .testimonials-info {
   display: flex;
   align-items: center;
@@ -643,11 +648,6 @@ a {
 
 .testimonials-info-text {
   margin-left: 1em;
-}
-
-.testimonials-text p {
-  line-height: 1.4;
-  margin: 3em 1em;
 }
 
 .testimonials-img {
@@ -869,35 +869,35 @@ a {
   margin-top: 1.5rem;
 }
 
-/* Footer Section */
-.footer1 {
+/* Partners Section */
+
+.partners-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.partners {
+.partners-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding-bottom: 8rem;
 }
 
-.partners-row1,
-.partners-row2 {
+.partners-row {
   display: flex;
-  justify-content: center;
-  gap: 2rem;
+  justify-content: space-between;
 }
 
-.partners img {
-  height: 7rem;
+.partners-container img {
+  height: 6rem;
   width: 8rem;
+  margin: 1em 2em;
 }
 
-.footer2 {
+/* Footer Section */
+
+.first-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -940,7 +940,7 @@ a {
   color: #a5a6a9;
 }
 
-.footer3 {
+.second-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -962,14 +962,14 @@ a {
   margin-left: 6rem;
 }
 
-.footer3 p {
+.second-footer p {
   text-align: end;
   color: #a5a6a9;
   font-size: 14px;
   font-weight: 600;
 }
 
-.footer3 h3 {
+.second-footer h3 {
   color: #a5a6a9;
   font-size: 18px;
   font-weight: bold;
